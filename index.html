@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>ページタイトル</title>
+    <meta name="description" content="ページの説明" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <!-- favicon/webclipicon -->
+    <!-- <link rel="icon" href="favicon.ico" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="webclip.png" /> -->
+
+    <!-- ogp -->
+    <meta property="og:site_name" content="サイト名" />
+    <meta property="og:url" content="URL" />
+    <meta property="og:type" content="website or article" />
+    <meta property="og:title" content="ページのタイトル" />
+    <meta property="og:description" content="ページの説明" />
+    <meta property="og:image" content="URL" />
+    <meta property="og:locale" content="ja_JP" />
+    <!-- <meta property="fb:app_id" content="AppID"> -->
+    <meta name="twitter:card" content="summary_large_image or summary" />
+    <!-- <meta name="twitter:site" content="@moshamusha2010" /> -->
+    <meta name="twitter:description" content="ページの説明" />
+    <meta name="twitter:image:src" content="URL" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="/assets/slick/slick.css" />
+    <link rel="stylesheet" href="/assets/slick/slick-theme.css" />
+    <link rel="stylesheet" href="/assets/css/import.css" />
+  </head>
+
+  <body>
+    <header>
+      <section>
+        <div class="cover-logo">
+          <div class="logo-travelo">
+            <img src="/assets/img/globe.png" class="logo-img" />
+            <h1 class="logo-content">Travelo</h1>
+          </div>
+
+          <div class="hamburger-menu" id="hamburger">
+            <div class="bar first-bar"></div>
+            <div class="bar second-bar"></div>
+            <div class="bar third-bar"></div>
+          </div>
+
+          <nav class="menu">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Places</a>
+            <a href="#">Careers</a>
+            <a href="#">Blog</a>
+          </nav>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section>
+        <div class="mv">
+          <div class="mv-container">
+            <h2 class="mv-title">TRAVEL TO EXPLORE</h2>
+            <p class="mv-inner-content">
+              Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do
+              Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliqua.
+            </p>
+
+            <div class="content-box">
+              <div class="travel-container">
+                <div class="search-four-field">
+                  <div class="search-location">
+                    <div class="want-to-go">Where You Want to go</div>
+                    <div class="search">
+                      <img
+                        src="/assets/img/search-icon.png"
+                        alt="search-icon"
+                        class="search-icon-img"
+                      />
+                      <input
+                        type="text"
+                        placeholder="Search your location"
+                        class="location"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="search-four-field">
+                  <div class="check-in-date">
+                    <div>Check-In</div>
+                    <div class="check-add-date">Add Date</div>
+                  </div>
+                </div>
+
+                <div class="search-four-field no-border">
+                  <div class="check-out-date">
+                    <div>Check-Out</div>
+                    <div class="check-add-date">Add Date</div>
+                  </div>
+                </div>
+
+                <a href="#" class="btn-explore">Explore Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="cover-container">
+          <div class="tap-container">
+            <div class="notice-title">
+              <h2 class="notice-h2">お知らせ</h2>
+            </div>
+
+            <div class="sub-container">
+              <div class="inner-container">
+                <div class="upper-inner-container">
+                  <div class="tap-flex-btn">
+                    <a href="#" class="notice-button active" data-btn="all">
+                      <p class="notice-button-p">All</p>
+                    </a>
+                    <a href="#" class="notice-button" data-btn="horror">
+                      <p class="notice-button-p">Horror</p>
+                    </a>
+                    <a href="#" class="notice-button" data-btn="advanture">
+                      <p class="notice-button-p">Advanture</p>
+                    </a>
+                    <a href="#" class="notice-button" data-btn="fiction">
+                      <p class="notice-button-p">Fiction</p>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="below-inner-container show" data-content="all">
+                  <div class="content">
+                    <div class="left-content">
+                      <p class="left-date">2024年7月1日</p>
+                      <div class="tap-flex">
+                        <p class="left-text">テキス</p>
+                      </div>
+                    </div>
+
+                    <div class="right-content">
+                      <a href="#" class="event-link">
+                        <span class="text">Horror</span>
+                        <span class="event-date"
+                          >2024年06月14日、17日～19日及び07月19日、20日</span
+                        >
+                      </a>
+                      <div class="event-text">
+                        テキステキステキステキステキステキス
+                      </div>
+                      <div class="event-location">
+                        <img
+                          src="/assets/img/home.png"
+                          alt="home"
+                          class="home-img"
+                        />
+                        <a href="#" class="event-location-a"
+                          >テキステキステキステキステキステキステキステキステキステキス</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="content">
+                    <div class="left-content">
+                      <p class="left-date">2024年6月19日</p>
+                      <div class="tap-flex">
+                        <p class="left-text">テキス</p>
+                      </div>
+                    </div>
+
+                    <div class="right-content">
+                      <a href="#" class="event-link">
+                        <span class="text">Advanture</span>
+                        <span class="event-date"
+                          >2024年7月22日、29日、8月5日、19日</span
+                        >
+                      </a>
+                      <div class="event-text">
+                        テキステキステキステキステキステキステキス
+                      </div>
+                      <div class="event-location">
+                        <img
+                          src="/assets/img/home.png"
+                          alt="home"
+                          class="home-img"
+                        />
+                        <a href="#" class="event-location-a"
+                          >テキステキステキステキステキステキス</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="content">
+                    <div class="left-content">
+                      <p class="left-date">2024年5月7日</p>
+                      <div class="tap-flex">
+                        <p class="left-text">テキス</p>
+                      </div>
+                    </div>
+
+                    <div class="right-content">
+                      <a href="#" class="event-link">
+                        <span class="text">Fiction</span>
+                        <span class="event-date"
+                          >2024年7月22日、29日、8月5日、19日</span
+                        >
+                      </a>
+                      <div class="event-text">
+                        テキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキス
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="content">
+                    <div class="left-content">
+                      <p class="left-date">2024年5月7日</p>
+                      <div class="tap-flex">
+                        <p class="left-text">テキス</p>
+                      </div>
+                    </div>
+
+                    <div class="right-content">
+                      
+                      <div class="event-text">
+                     <a>テキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキス</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="content">
+                    <div class="left-content">
+                      <p class="left-date">2024年5月7日</p>
+                      <div class="tap-flex">
+                        <p class="left-text">テキス</p>
+                      </div>
+                    </div>
+
+                    <div class="right-content">
+                       <div class="event-text">
+                       <a> テキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキス</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="below-inner-container" data-content="horror">
+                   <div class="content">
+                    <div class="left-content">
+                      <p class="left-date">2024年7月1日</p>
+                      <div class="tap-flex">
+                        <p class="left-text">テキス</p>
+                      </div>
+                    </div>
+
+                    <div class="right-content">
+                      <a href="#" class="event-link">
+                        <span class="text">Horror</span>
+                        <span class="event-date"
+                          >2024年06月14日、17日～19日及び07月19日、20日</span
+                        >
+                      </a>
+                      <div class="event-text">
+                        テキステキステキステキステキステキス
+                      </div>
+                      <div class="event-location">
+                        <img
+                          src="/assets/img/home.png"
+                          alt="home"
+                          class="home-img"
+                        />
+                        <a href="#" class="event-location-a"
+                          >テキステキステキステキステキステキステキステキステキステキス</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                   <div class="content">
+                    <div class="left-content">
+                      <p class="left-date">2024年7月1日</p>
+                      <div class="tap-flex">
+                        <p class="left-text">テキス</p>
+                      </div>
+                    </div>
+
+                    <div class="right-content">
+                      <a href="#" class="event-link">
+                        <span class="text">Horror</span>
+                        <span class="event-date"
+                          >2024年06月14日、17日～19日及び07月19日、20日</span
+                        >
+                      </a>
+                      <div class="event-text">
+                        テキステキステキステキステキステキス
+                      </div>
+                      <div class="event-location">
+                        <img
+                          src="/assets/img/home.png"
+                          alt="home"
+                          class="home-img"
+                        />
+                        <a href="#" class="event-location-a"
+                          >テキステキステキステキステキステキステキステキステキステキス</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                   <div class="content">
+                    <div class="left-content">
+                      <p class="left-date">2024年7月1日</p>
+                      <div class="tap-flex">
+                        <p class="left-text">テキス</p>
+                      </div>
+                    </div>
+
+                    <div class="right-content">
+                      <a href="#" class="event-link">
+                        <span class="text">Horror</span>
+                        <span class="event-date"
+                          >2024年06月14日、17日～19日及び07月19日、20日</span
+                        >
+                      </a>
+                      <div class="event-text">
+                        テキステキステキステキステキステキス
+                      </div>
+                      <div class="event-location">
+                        <img
+                          src="/assets/img/home.png"
+                          alt="home"
+                          class="home-img"
+                        />
+                        <a href="#" class="event-location-a"
+                          >テキステキステキステキステキステキステキステキステキステキス</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="below-inner-container" data-content="advanture">
+
+                  <div class="content">
+                    <div class="left-content">
+                      <p class="left-date">2024年6月19日</p>
+                      <div class="tap-flex">
+                        <p class="left-text">テキス</p>
+                      </div>
+                    </div>
+
+                    <div class="right-content">
+                      <a href="#" class="event-link">
+                        <span class="text">Advanture</span>
+                        <span class="event-date"
+                          >2024年7月22日、29日、8月5日、19日</span
+                        >
+                      </a>
+                      <div class="event-text">
+                        テキステキステキステキステキステキステキス
+                      </div>
+                      <div class="event-location">
+                        <img
+                          src="/assets/img/home.png"
+                          alt="home"
+                          class="home-img"
+                        />
+                        <a href="#" class="event-location-a"
+                          >テキステキステキステキステキステキス</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <div class="left-content">
+                      <p class="left-date">2024年6月19日</p>
+                      <div class="tap-flex">
+                        <p class="left-text">テキス</p>
+                      </div>
+                    </div>
+
+                    <div class="right-content">
+                      <a href="#" class="event-link">
+                        <span class="text">Advanture</span>
+                        <span class="event-date"
+                          >2024年7月22日、29日、8月5日、19日</span
+                        >
+                      </a>
+                      <div class="event-text">
+                        テキステキステキステキステキステキステキス
+                      </div>
+                      <div class="event-location">
+                        <img
+                          src="/assets/img/home.png"
+                          alt="home"
+                          class="home-img"
+                        />
+                        <a href="#" class="event-location-a"
+                          >テキステキステキステキステキステキス</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <div class="left-content">
+                      <p class="left-date">2024年6月19日</p>
+                      <div class="tap-flex">
+                        <p class="left-text">テキス</p>
+                      </div>
+                    </div>
+
+                    <div class="right-content">
+                      <a href="#" class="event-link">
+                        <span class="text">Advanture</span>
+                        <span class="event-date"
+                          >2024年7月22日、29日、8月5日、19日</span
+                        >
+                      </a>
+                      <div class="event-text">
+                        テキステキステキステキステキステキステキス
+                      </div>
+                      <div class="event-location">
+                        <img
+                          src="/assets/img/home.png"
+                          alt="home"
+                          class="home-img"
+                        />
+                        <a href="#" class="event-location-a"
+                          >テキステキステキステキステキステキス</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="below-inner-container" data-content="fiction">
+
+                  <div class="content">
+                    <div class="left-content">
+                      <p class="left-date">2024年5月7日</p>
+                      <div class="tap-flex">
+                        <p class="left-text">テキス</p>
+                      </div>
+                    </div>
+
+                    <div class="right-content">
+                      <a href="#" class="event-link">
+                        <span class="text">Fiction</span>
+                        <span class="event-date"
+                          >2024年7月22日、29日、8月5日、19日</span
+                        >
+                      </a>
+                      <div class="event-text">
+                        テキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキス
+                      </div>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <div class="left-content">
+                      <p class="left-date">2024年5月7日</p>
+                      <div class="tap-flex">
+                        <p class="left-text">テキス</p>
+                      </div>
+                    </div>
+
+                    <div class="right-content">
+                      <a href="#" class="event-link">
+                        <span class="text">Fiction</span>
+                        <span class="event-date"
+                          >2024年7月22日、29日、8月5日、19日</span
+                        >
+                      </a>
+                      <div class="event-text">
+                        テキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキス
+                      </div>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <div class="left-content">
+                      <p class="left-date">2024年5月7日</p>
+                      <div class="tap-flex">
+                        <p class="left-text">テキス</p>
+                      </div>
+                    </div>
+
+                    <div class="right-content">
+                      <a href="#" class="event-link">
+                        <span class="text">Fiction</span>
+                        <span class="event-date"
+                          >2024年7月22日、29日、8月5日、19日</span
+                        >
+                      </a>
+                      <div class="event-text">
+                        テキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキステキス
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+                <a href="#" class="info-btn">新着情報一覧を見る</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <section id="footerPart"></section>
+    </footer>
+
+    <!-- js -->
+    <script src="/assets/js/jquery-3.7.1.min.js"></script>
+    <script src="/assets/js/jquery.matchHeight.js"></script>
+    <script src="/assets/slick/slick.min.js"></script>
+    <script src="/assets/js/template-part.js"></script>
+    <script src="/assets/js/common.js"></script>
+  </body>
+</html>
